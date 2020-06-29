@@ -6,6 +6,8 @@ const helmet = require("helmet");
 const cors = require("cors");
 const morgan = require("morgan");
 
+console.log(process.env.DB_DIALECT);
+
 const app = express();
 
 app.use(helmet());
